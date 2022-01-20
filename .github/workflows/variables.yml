@@ -27,7 +27,7 @@ jobs:
       
       - name: Run number with offset
         env:
-          NUM: ${{ github.run_number + 30}}
+          NUM: ${{ github.run_number }}
         run: |
           echo ${{ env.NUM }}
 
